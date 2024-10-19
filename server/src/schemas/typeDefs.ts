@@ -3,7 +3,7 @@ const typeDefs = `
         _id: ID
         username: String
         email: String
-        bookCount: Int
+        password: String
         savedBooks: [Book]!
     }
 
@@ -14,7 +14,6 @@ const typeDefs = `
         description: String
         title: String
         image: String
-        link: String
     }
 
     input UserInput {
@@ -29,7 +28,6 @@ const typeDefs = `
         description: String
         title: String
         image: String
-        link: String
     }
 
     type Auth {
